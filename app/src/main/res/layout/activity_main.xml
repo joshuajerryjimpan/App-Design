@@ -22,7 +22,7 @@
             android:layout_marginTop="44dp"
             android:text="點我註冊"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/imageButton3"
+            app:layout_constraintStart_toEndOf="@+id/menu_sign"
             app:layout_constraintTop_toBottomOf="@+id/button5" />
 
         <Button
@@ -92,7 +92,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/menu_login"
             android:layout_width="49dp"
             android:layout_height="52dp"
             android:layout_marginStart="60dp"
@@ -103,13 +103,13 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/menu_sign"
             android:layout_width="55dp"
             android:layout_height="58dp"
             android:layout_marginStart="60dp"
             android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/menu_login"
             app:srcCompat="@drawable/_0118e3531aa58b72c5536cf8e189182_512_437"
             tools:ignore="SpeakableTextPresentCheck" />
 
@@ -121,7 +121,7 @@
             android:layout_marginTop="72dp"
             android:text="點我登入"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintStart_toEndOf="@+id/menu_login"
             app:layout_constraintTop_toBottomOf="@+id/button3" />
 
         <ImageView
