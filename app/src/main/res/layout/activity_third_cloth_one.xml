@@ -6,6 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".ThirdActivity_Cloth_one">
 
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="80dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="64dp"
+        android:background="#090909"
+        android:text="查詢商品資訊"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_choice_four"
+        tools:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="80dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        android:background="#090909"
+        android:text="查詢商品資訊"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_choice_three"
+        tools:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="80dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:background="#090909"
+        android:text="查詢商品資訊"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_choice_two"
+        tools:textColor="#FFFFFF" />
+
     <ImageView
         android:id="@+id/pic_Tshirt_two"
         android:layout_width="175dp"
@@ -18,11 +57,12 @@
 
     <Button
         android:id="@+id/btn_choice_one"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="16dp"
-        android:text="相機"
+        android:layout_width="135dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="文藝相機白T-shirt"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pic_Tshirt_two" />
 
@@ -42,9 +82,10 @@
         android:id="@+id/btn_choice_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="56dp"
-        android:text="柴犬"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:text="可愛柴柴白T-shirt"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pic_Tshirt_three" />
 
@@ -53,7 +94,7 @@
         android:layout_width="175dp"
         android:layout_height="175dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="12dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_choice_three"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/cloth_two" />
@@ -62,9 +103,10 @@
         android:id="@+id/btn_choice_three"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginBottom="70dp"
-        android:text="日文1"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="180dp"
+        android:text="氣質日文白Tishirt(大字)"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -82,9 +124,24 @@
         android:id="@+id/btn_choice_four"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="70dp"
-        android:text="日文2"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="176dp"
+        android:text="氣質日文白T-shirt(小字)"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:background="#090909"
+        android:text="查詢商品資訊"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_choice_one"
+        tools:textColor="#FFFFFF" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,12 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="52dp"
+        android:background="#979393"
+        android:text="回上一頁"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:textSize="20sp" />
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="380dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="115dp"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="56dp"
         android:text="代購商或代購人聯絡方式"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -22,7 +34,8 @@
         android:id="@+id/textView3"
         android:layout_width="290dp"
         android:layout_height="60dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
         android:text="聯絡方法: \n 0923145678\n"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +45,8 @@
         android:id="@+id/textView2"
         android:layout_width="290dp"
         android:layout_height="50dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="52dp"
         android:text="姓名: 小佛"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,10 +56,23 @@
         android:id="@+id/textView4"
         android:layout_width="290dp"
         android:layout_height="60dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
         android:text="預估價格: \n 9000\n"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="96dp"
+        android:background="#979393"
+        android:text="回主選單"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:textSize="20sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

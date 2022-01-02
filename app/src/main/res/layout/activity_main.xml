@@ -10,20 +10,10 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="72dp"
         android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <Button
-            android:id="@+id/btn_sign"
-            android:layout_width="72dp"
-            android:layout_height="63dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
-            android:text="點我註冊"
-            android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/pic_sign"
-            app:layout_constraintTop_toBottomOf="@+id/btn_login" />
 
         <Button
             android:id="@+id/btn_choice_three"
@@ -99,31 +89,20 @@
             android:id="@+id/pic_login"
             android:layout_width="55dp"
             android:layout_height="58dp"
-            android:layout_marginStart="68dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="100dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_three"
             app:srcCompat="@drawable/user_icon"
             tools:ignore="SpeakableTextPresentCheck" />
 
-        <ImageButton
-            android:id="@+id/pic_sign"
-            android:layout_width="55dp"
-            android:layout_height="58dp"
-            android:layout_marginStart="68dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pic_login"
-            app:srcCompat="@drawable/_0118e3531aa58b72c5536cf8e189182_512_437"
-            tools:ignore="SpeakableTextPresentCheck" />
-
         <Button
             android:id="@+id/btn_login"
-            android:layout_width="72dp"
-            android:layout_height="63dp"
+            android:layout_width="71dp"
+            android:layout_height="22dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
-            android:text="點我登入"
+            android:layout_marginTop="116dp"
+            android:text="線上客服"
             android:textSize="14sp"
             app:layout_constraintStart_toEndOf="@+id/pic_login"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_three" />
@@ -132,8 +111,8 @@
             android:id="@+id/pic_cartoon_people"
             android:layout_width="160dp"
             android:layout_height="170dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="30dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="28dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_four"
             app:srcCompat="@drawable/shopping" />
