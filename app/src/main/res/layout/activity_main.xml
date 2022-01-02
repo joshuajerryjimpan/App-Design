@@ -138,9 +138,11 @@
             android:id="@+id/imageView6"
             android:layout_width="99dp"
             android:layout_height="57dp"
-            app:srcCompat="@drawable/pic"
-            tools:layout_editor_absoluteX="48dp"
-            tools:layout_editor_absoluteY="39dp" />
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic" />
 
         android:background="#8FBC8F"
 
