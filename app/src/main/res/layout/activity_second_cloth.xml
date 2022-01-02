@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity_Cloth">
+
+    <Button
+        android:id="@+id/btn_shirt"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="45dp"
+        android:text="長袖"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tshirt" />
+
+    <Button
+        android:id="@+id/btn_tshirt"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="短袖"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_style" />
+
+    <Button
+        android:id="@+id/btn_shorts"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="45dp"
+        android:text="短褲"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_shirt" />
+
+    <Button
+        android:id="@+id/btn_pants"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="45dp"
+        android:text="長褲"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_shorts" />
+
+    <TextView
+        android:id="@+id/tv_style"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="53dp"
+        android:text="衣服款式選擇"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/tshirt_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_style" />
+
+    <ImageView
+        android:id="@+id/pic_shirt_one"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/shirt_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/pic_short_one"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/short_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic_shirt_one" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/pant_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic_short_one" />
+</androidx.constraintlayout.widget.ConstraintLayout>

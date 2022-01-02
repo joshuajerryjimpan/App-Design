@@ -11,22 +11,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-16dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button6"
-            android:layout_width="69dp"
-            android:layout_height="23dp"
+            android:id="@+id/btn_sign"
+            android:layout_width="72dp"
+            android:layout_height="63dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="12dp"
             android:text="點我註冊"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/menu_sign"
-            app:layout_constraintTop_toBottomOf="@+id/button5" />
+            app:layout_constraintStart_toEndOf="@+id/pic_sign"
+            app:layout_constraintTop_toBottomOf="@+id/btn_login" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btn_choice_three"
             android:layout_width="117dp"
             android:layout_height="116dp"
             android:layout_marginTop="28dp"
@@ -34,112 +34,116 @@
             android:gravity="center"
             android:shape="oval"
             android:text="食品"
+            android:textColor="#000000"
             android:textSize="16sp"
-            app:layout_constraintEnd_toStartOf="@+id/button4"
+            app:layout_constraintEnd_toStartOf="@+id/btn_choice_four"
             app:layout_constraintHorizontal_bias="0.733"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button1" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_grocery" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btn_choice_four"
             android:layout_width="117dp"
             android:layout_height="116dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="72dp"
             android:gravity="center"
             android:text="品牌衣物"
+            android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_two"
             tools:background="#8FBC8F" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_choice_two"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginTop="35dp"
             android:layout_marginEnd="72dp"
             android:background="#AAAAAA"
             android:gravity="center"
             android:text="3C產品"
+            android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btn_grocery"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginTop="35dp"
             android:background="#8FBC8F"
             android:gravity="center"
             android:text="生活用品"
+            android:textColor="#000000"
             android:textSize="16sp"
-            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/btn_choice_two"
             app:layout_constraintHorizontal_bias="0.733"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tv_title"
             android:layout_width="315dp"
             android:layout_height="34dp"
-            android:layout_marginTop="96dp"
+            android:layout_marginTop="8dp"
             android:text="代購商品資訊查詢平台"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/pic_cartoon_lines" />
 
         <ImageButton
-            android:id="@+id/menu_login"
-            android:layout_width="49dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="60dp"
+            android:id="@+id/pic_login"
+            android:layout_width="55dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three"
             app:srcCompat="@drawable/user_icon"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/menu_sign"
+            android:id="@+id/pic_sign"
             android:layout_width="55dp"
             android:layout_height="58dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/menu_login"
+            app:layout_constraintTop_toBottomOf="@+id/pic_login"
             app:srcCompat="@drawable/_0118e3531aa58b72c5536cf8e189182_512_437"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
-            android:id="@+id/button5"
-            android:layout_width="69dp"
-            android:layout_height="23dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="72dp"
+            android:id="@+id/btn_login"
+            android:layout_width="72dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
             android:text="點我登入"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/menu_login"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintStart_toEndOf="@+id/pic_login"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three" />
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="179dp"
-            android:layout_height="220dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="16dp"
+            android:id="@+id/pic_cartoon_people"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="30dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_four"
             app:srcCompat="@drawable/shopping" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/pic_cartoon_lines"
             android:layout_width="99dp"
             android:layout_height="57dp"
             android:layout_marginStart="48dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/pic" />
